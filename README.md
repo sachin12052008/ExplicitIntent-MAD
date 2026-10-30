@@ -12,14 +12,18 @@ Latest Version Android Studio
 
 ## ALGORITHM:
 
-
+1.Start the Android application and display the first screen.
+2.Get a number as input from the user using an EditText field.
+3.When the user clicks the Factorial button, calculate or pass the entered number using an Explicit Intent.
+4.Open the second screen (Activity) and receive the number from the first screen.
+5.Calculate the factorial of the number and display the result on the second screen.
 
 ## PROGRAM:
 ```
 
 Program to print the text “ExplicitIntent”.
-Developed by: ISRAVEL Y
-Registeration Number : 212225240054
+Developed by: SACHIN J M
+Registeration Number : 212225100041
 
 ```
 
@@ -114,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         android:fontFamily="sans-serif-black"
         android:scaleX="1.4"
         android:scaleY="1.3"
-        android:text="ISRAVEL Y - 212225240054"
+        android:text="SACHIN J M  -  212225100041"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -156,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-### MainActivity2.java
+### MainActivity3.java
 ```java
 
 package com.example.explicitintent;
@@ -187,7 +191,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
 ```
-### activity_main2.xml
+### activity_main3.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -196,7 +200,7 @@ public class MainActivity2 extends AppCompatActivity {
     android:id="@+id/linearLaylout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity3">
 
     <TextView
         android:id="@+id/textView"
@@ -220,7 +224,7 @@ public class MainActivity2 extends AppCompatActivity {
         android:fontFamily="sans-serif-black"
         android:scaleX="1.4"
         android:scaleY="1.3"
-        android:text="ISRAVEL Y - 212225240054"
+        android:text="SACHIN J M  - 212225100041"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -268,11 +272,9 @@ public class MainActivity2 extends AppCompatActivity {
 
 ## OUTPUT
 
-<img width="1535" height="857" alt="Screenshot 2026-10-27 005007" src="https://github.com/user-attachments/assets/b8fa4898-1aa0-41cf-b1fd-8050b8255bc7" />
-<img width="1535" height="862" alt="Screenshot 2026-10-27 005033" src="https://github.com/user-attachments/assets/45d246dd-1396-4e19-a196-c7e3b88ccb57" />
-<img width="1535" height="862" alt="Screenshot 2026-10-27 010034" src="https://github.com/user-attachments/assets/77c0d4b5-ec66-47ae-91a8-f0d5b027841c" />
-
-
+<img width="1737" height="905" alt="2b" src="https://github.com/user-attachments/assets/4febe016-2706-42c8-9901-784ef8347e95" />
+<img width="1729" height="910" alt="2b2" src="https://github.com/user-attachments/assets/f8f6399d-1518-43fa-9085-9f04796530ed" />
+<img width="1730" height="909" alt="2b3" src="https://github.com/user-attachments/assets/8ec0fabb-79a8-43cb-8a01-561ceec9a4ad" />
 
 
 ## RESULT
